@@ -1,0 +1,17 @@
+{
+    "name": "lib/base",
+    "description": "Líbreria gii para Yii2",
+    "type": "library",
+    "require": {
+        "yiisoft/yii2-gii": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "vilmaob",
+            "email": "vilmaob845@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "web\\gii\\": "src" }
+    }
+}
